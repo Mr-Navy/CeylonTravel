@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display-hero: "Playfair Display", Georgia, serif;
+  --font-headline-xl: "Playfair Display", Georgia, serif;
+  --font-headline-lg: "Playfair Display", Georgia, serif;
+  --font-headline-md: "Playfair Display", Georgia, serif;
+  --font-headline-sm: "Plus Jakarta Sans", sans-serif;
+  --font-body-lg: "Plus Jakarta Sans", sans-serif;
+  --font-body-md: "Plus Jakarta Sans", sans-serif;
+  --font-body-sm: "Plus Jakarta Sans", sans-serif;
+  --font-label-lg: "Plus Jakarta Sans", sans-serif;
+  --font-label-md: "Plus Jakarta Sans", sans-serif;
+  --font-label-eyebrow: "Plus Jakarta Sans", sans-serif;
+
+  --color-primary: #00241a;
+  --color-primary-container: #0d3b2e;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #79a694;
+  --color-primary-fixed: #beedd9;
+  --color-primary-fixed-dim: #a3d0be;
+  --color-on-primary-fixed: #002117;
+  --color-on-primary-fixed-variant: #234e40;
+
+  --color-secondary: #8f4e00;
+  --color-secondary-container: #fea047;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #6d3a00;
+  --color-secondary-fixed: #ffdcc2;
+  --color-secondary-fixed-dim: #ffb77a;
+  --color-on-secondary-fixed: #2e1500;
+  --color-on-secondary-fixed-variant: #6d3a00;
+
+  --color-tertiary: #002424;
+  --color-tertiary-container: #003b3b;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #5ca9a9;
+  --color-tertiary-fixed: #a3f0ef;
+  --color-tertiary-fixed-dim: #87d4d3;
+  --color-on-tertiary-fixed: #002020;
+  --color-on-tertiary-fixed-variant: #004f50;
+
+  --color-surface: #fbf9f6;
+  --color-surface-dim: #dbdad7;
+  --color-surface-bright: #fbf9f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3f0;
+  --color-surface-container: #efeeeb;
+  --color-surface-container-high: #eae8e5;
+  --color-surface-container-highest: #e4e2df;
+  --color-surface-variant: #e4e2df;
+  --color-surface-tint: #3c6658;
+
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #414845;
+  --color-background: #fbf9f6;
+  --color-on-background: #1b1c1a;
+  --color-outline: #717974;
+  --color-outline-variant: #c0c8c3;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-space-2xl: 4rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-margin: 4rem;
+  --spacing-margin-tablet: 2rem;
+  --spacing-margin-mobile: 1.25rem;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9f6;
+    color: #1b1c1a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+}
+
+.font-display-hero {
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-headline-xl {
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-headline-lg {
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-headline-md {
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-headline-sm {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.font-body-lg {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.font-body-md {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.font-body-sm {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.font-label-lg {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.font-label-md {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.font-label-eyebrow {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+

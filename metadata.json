@@ -1,0 +1,6 @@
+{
+  "name": "Travel Ceylone",
+  "description": "Bespoke Sri Lanka luxury travel, curated tours, authentic Ceylon experiences, and custom trip planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
